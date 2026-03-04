@@ -39,7 +39,7 @@
             true
         </property>
 
-        <mapping class="com.student.entity.Student"/>
+        <mapping class="student.entity.Student"/>
 
     </session-factory>
 </hibernate-configuration>
