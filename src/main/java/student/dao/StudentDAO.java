@@ -1,4 +1,4 @@
-package student.DAO;
+package student.dao;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
