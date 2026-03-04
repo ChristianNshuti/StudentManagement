@@ -8,7 +8,7 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     private String name;
     private String email;
@@ -22,7 +22,7 @@ public class Student {
         this.age = age;
     }
 
-    public int getId() { return id; }
+    public Long getId() { return id; }
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
